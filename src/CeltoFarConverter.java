@@ -11,7 +11,7 @@ public class CeltoFarConverter {
             System.out.print("Enter the temperature in Celsius: ");
             if (in.hasNextDouble()) {
                 celsius = in.nextDouble();
-                in.nextLine(); // Clear buffer
+                in.nextLine();
                 validInput = true;
             } else {
                 trash = in.nextLine();
